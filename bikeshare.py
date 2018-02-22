@@ -155,7 +155,6 @@ def popular_hour(city_file, time_period):
     Returns:
         (Integer) Number of the respective Hour(1-11) which is most popular.
     '''
-
     print('\n#### CALCULATING MOST POPLULAR HOUR OF THE DAY FROM YOUR DATA ####\n')
     
     df = pd.read_csv(city_file)
